@@ -1,7 +1,3 @@
-chrome.runtime.onInstalled.addListener(() => {
-  console.log('Extension installed');
-});
-
 var ceTabId = 0;
 var cookieInfo = null;
 var cePopupWindow = null;
